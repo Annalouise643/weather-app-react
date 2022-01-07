@@ -6,6 +6,7 @@ export default function Search() {
       <form>
         <input type="text" placeholder="enter a city" />
         <input type="submit" value="Search" />
+        <button>Current</button>
       </form>
     </div>
   );
