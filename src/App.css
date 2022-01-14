@@ -1,4 +1,19 @@
 .card {
-  max-width: 50rem;
+  max-width: 40rem;
   margin: 20px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card .temp {
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.card .temp small {
+  font-size: 15px;
+  line-height: 100%;
+  vertical-align: top;
 }
