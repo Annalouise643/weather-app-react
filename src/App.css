@@ -1,6 +1,10 @@
 .card {
-  max-width: 40rem;
+  max-width: 38rem;
   margin: 20px;
+}
+
+.card .search-bar {
+  width: 21em;
 }
 
 .card p {
@@ -10,6 +14,7 @@
 .card .temp {
   font-size: 50px;
   line-height: 100%;
+  text-align: center;
 }
 
 .card .temp small {
