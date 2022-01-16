@@ -1,6 +1,8 @@
 .card {
   max-width: 38rem;
   margin: 20px;
+  color: #3d6683;
+  /*find out how to change background color of card*/
 }
 
 .card .search-bar {
@@ -21,4 +23,15 @@
   font-size: 15px;
   line-height: 100%;
   vertical-align: top;
+}
+
+.card .forecast {
+  font-size: 12px;
+}
+
+.card .forecast .col {
+  border: solid 1px;
+  border-radius: 3px;
+  margin: 0 3px;
+  background: #98c3c470;
 }

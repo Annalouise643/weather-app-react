@@ -13,13 +13,13 @@ function App() {
               className="search-bar"
               autofocus
             />
-            <input type="submit" value="Search" class="btn btn-primary" />
-            <button className="btn btn-success">Current</button>
+            <input type="submit" value="Search" class="btn btn-light" />
+            <button className="btn btn-dark">Current</button>
           </div>
         </form>
         <h4>London</h4>
         <p>Friday 17:49</p>
-        <div className="row">
+        <div className="row mb-3">
           <div className="col">
             <div className="row">
               <div className="col">Clouds</div>
@@ -27,11 +27,39 @@ function App() {
             </div>
           </div>
           <div className="col temp">
-            14<small>°C</small>
+            0<small>°C</small>
           </div>
           <div className="col">
             <p>Precipitation: 0%</p>
             <p>Wind:3km/h</p>
+          </div>
+        </div>
+        <div className="row forecast">
+          <div className="col">
+            <div className="row">Mon</div>
+            <div className="row">[Icon]</div>
+            <div className="row">0°C</div>
+          </div>
+          <div className="col">
+            <div className="row"> Tues</div>
+            <div className="row">[Icon]</div>
+            <div className="row">0°C</div>
+          </div>
+
+          <div className="col">
+            <div className="row"> Weds</div>
+            <div className="row">[Icon]</div>
+            <div className="row">0°C</div>
+          </div>
+          <div className="col">
+            <div className="row"> Thurs</div>
+            <div className="row">[Icon]</div>
+            <div className="row">0°C</div>
+          </div>
+          <div className="col">
+            <div className="row"> Fri</div>
+            <div className="row">[Icon]</div>
+            <div className="row">0°C</div>
           </div>
         </div>
       </div>
