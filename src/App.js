@@ -34,35 +34,40 @@ function App() {
             <p>Wind:3km/h</p>
           </div>
         </div>
-        <div className="row forecast">
-          <div className="col">
-            <div className="row">Mon</div>
-            <div className="row">[Icon]</div>
-            <div className="row">0°C</div>
-          </div>
-          <div className="col">
-            <div className="row"> Tues</div>
-            <div className="row">[Icon]</div>
-            <div className="row">0°C</div>
-          </div>
+        <div className="container">
+          <div className="row forecast">
+            <div className="col">
+              <div className="row">Mon</div>
+              <div className="row">[Icon]</div>
+              <div className="row">0°C</div>
+            </div>
+            <div className="col">
+              <div className="row"> Tues</div>
+              <div className="row">[Icon]</div>
+              <div className="row">0°C</div>
+            </div>
 
-          <div className="col">
-            <div className="row"> Weds</div>
-            <div className="row">[Icon]</div>
-            <div className="row">0°C</div>
-          </div>
-          <div className="col">
-            <div className="row"> Thurs</div>
-            <div className="row">[Icon]</div>
-            <div className="row">0°C</div>
-          </div>
-          <div className="col">
-            <div className="row"> Fri</div>
-            <div className="row">[Icon]</div>
-            <div className="row">0°C</div>
+            <div className="col">
+              <div className="row"> Weds</div>
+              <div className="row">[Icon]</div>
+              <div className="row">0°C</div>
+            </div>
+            <div className="col">
+              <div className="row"> Thurs</div>
+              <div className="row">[Icon]</div>
+              <div className="row">0°C</div>
+            </div>
+            <div className="col">
+              <div className="row"> Fri</div>
+              <div className="row">[Icon]</div>
+              <div className="row">0°C</div>
+            </div>
           </div>
         </div>
       </div>
+      <p className="open-source">
+        <a href="">Open source code</a> by Anna Bray
+      </p>
     </div>
   );
 }

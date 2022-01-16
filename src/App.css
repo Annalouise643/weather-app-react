@@ -32,6 +32,11 @@
 .card .forecast .col {
   border: solid 1px;
   border-radius: 3px;
-  margin: 0 3px;
   background: #98c3c470;
+  margin: 0 2px;
+}
+
+.open-source {
+  font-size: 10px;
+  margin-left: 20px;
 }
