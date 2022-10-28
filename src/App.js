@@ -66,7 +66,10 @@ function App() {
         </div>
       </div>
       <p className="open-source">
-        <a href="">Open source code</a> by Anna Bray
+        <a href="https://github.com/Annalouise643/weather-app-react">
+          Open source code
+        </a>{" "}
+        by Anna Bray
       </p>
     </div>
   );
