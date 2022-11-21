@@ -1,7 +1,9 @@
 React Weather App
 
-Take a look at https://admiring-carson-58b9a5.netlify.app/
 A practice version of the App made whilst working through SheCodes React Week 3 Homework.
+
+Take a look at https://admiring-carson-58b9a5.netlify.app/
+
 
 # Getting Started with Create React App
 
