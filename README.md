@@ -1,6 +1,6 @@
 React Weather App
 
-A practice version of the App made whilst working through SheCodes React Week 3 Homework.
+A practice version of the App made whilst working through SheCodes React Homework.
 
 Take a look at https://admiring-carson-58b9a5.netlify.app/
 
